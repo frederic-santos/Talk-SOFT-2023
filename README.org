@@ -1,0 +1,7 @@
+#+TITLE: Ouvrir et partager ses codes informatiques
+#+SUBTITLE: Journées SOFT, Bordeaux.
+#+AUTHOR: Frédéric Santos
+#+DATE: 22 juin 2023
+
+** Licence
+Le contenu de ce dépôt est sous licence CC-BY-NC-SA 4.0.
