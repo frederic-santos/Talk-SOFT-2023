@@ -1,0 +1,14 @@
+#+TITLE: Ouvrir et partager ses codes informatiques
+#+AUTHOR: Frédéric Santos
+#+EMAIL: frederic.santos@u-bordeaux.fr
+#+DATE: Lundi 22 juin 2023
+#+REVEAL_INIT_OPTIONS: width:1650, height:950, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'fade', slideNumber:'c/t'
+#+OPTIONS: toc:nil email:t timestamp:nil reveal_global_header:t
+#+REVEAL_THEME: sky
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Atelier pour les journées SOFT (Bordeaux, 2023).">
+#+REVEAL_POSTAMBLE: <p> Créé par Frédéric Santos </p>
+
+* Test
+Test
+
