@@ -8,11 +8,7 @@
 #+REVEAL_HLEVEL: 2
 #+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Atelier pour les journées SOFT (Bordeaux, 2023).">
 #+REVEAL_POSTAMBLE: <p> Créé par Frédéric Santos </p>
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 
 * Test
 Test
-
-* Emacs config :noexport:
-;;; Local Variables:
-;;; org-reveal-root:"./reveal.js"
-;;; End:
