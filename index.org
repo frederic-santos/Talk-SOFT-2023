@@ -12,3 +12,7 @@
 * Test
 Test
 
+* Emacs config :noexport:
+;;; Local Variables:
+;;; org-reveal-root:"./reveal.js"
+;;; End:
