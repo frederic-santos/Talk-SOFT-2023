@@ -9,9 +9,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="/home/fsantos/PACEA_MyCore/Logiciels/reveal_js/dist/reveal.css"/>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
 
-<link rel="stylesheet" href="/home/fsantos/PACEA_MyCore/Logiciels/reveal_js/dist/theme/sky.css" id="theme"/>
+<link rel="stylesheet" href="./reveal.js/css/theme/sky.css" id="theme"/>
 
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -20,7 +20,7 @@
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = '/home/fsantos/PACEA_MyCore/Logiciels/reveal_js/css/print/pdf.css';
+        link.href = './reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -34,8 +34,8 @@
 </section>
 
 <section>
-<section id="slide-org6cd16ed">
-<h2 id="org6cd16ed"><span class="section-number-2">1.</span> Test</h2>
+<section id="slide-org5b39508">
+<h2 id="org5b39508"><span class="section-number-2">1.</span> Test</h2>
 <p>
 Test
 </p>
@@ -44,18 +44,21 @@ Test
 </div>
 </div>
 <p> Créé par Frédéric Santos </p>
-<script src="/home/fsantos/PACEA_MyCore/Logiciels/reveal_js/dist/reveal.js"></script>
-<script src="/home/fsantos/PACEA_MyCore/Logiciels/reveal_js/plugin/markdown/markdown.js"></script>
-<script src="/home/fsantos/PACEA_MyCore/Logiciels/reveal_js/plugin/zoom/zoom.js"></script>
-<script src="/home/fsantos/PACEA_MyCore/Logiciels/reveal_js/plugin/notes/notes.js"></script>
-
+<script src="./reveal.js/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-plugins: [RevealMarkdown, RevealZoom, RevealNotes],
-width:1650, height:950, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'fade', slideNumber:'c/t'
+width:1650, height:950, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'fade', slideNumber:'c/t',
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+
 });
 
 </script>
