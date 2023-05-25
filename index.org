@@ -28,7 +28,13 @@
 * Archiver
 ** Zenodo / Nakala (avec exemples de dépôt associé à une publication)
 
-** Software Heritage (consulter les docs envoyés par Sabrina)
+** Software Heritage
+- Les dépôts sur des forges Git (GitLab, GitHub, ...) ne constituent pas des archives pérennes : ils peuvent disparaître... ou devenir payants !
+- À l'opposé, [[https://www.softwareheritage.org/?lang=fr][Software Heritage]] est une initiative à but non lucratif (issue de l'Inria), garantissant un archivage pérenne.
+- Software Heritage se donne pour mission /"de fournir une archive uniformisée, universelle, de tout le patrimoine logiciel de l'humanité"/.
+- Par défaut, Software Heritage moissonne automatiquement et périodiquement le contenu des dépôts GitLab / GitHub, des archives de paquets usuelles (CRAN, CTAN, Npm, Pypi, ...).
+- On peut aussi soumettre directement une source logicielle qui n'est pas moissonnée automatiquement.
+- Les logiciels archivés (via leurs /blobs/ Git) reçoivent un identifiant unique, le SWHID.
 
 * Outils pour se former
 ** /Vers une recherche reproductible/
