@@ -63,6 +63,6 @@ De nombreux articles, publiés dans des revues académiques, fournissent des int
 - Alston, J. M., & Rick, J. A. (2021). A Beginner's Guide to Conducting Reproducible Research. /The Bulletin of the Ecological Society of America/, 102(2), 01801. http://dx.doi.org/10.1002/bes2.1801
 - Marwick, B. (2017). Open Science in Archaeology. http://dx.doi.org/10.17605/OSF.IO/3D6XX
 - Marwick, B. (2017). Computational Reproducibility in Archaeological Research: Basic Principles and a Case Study of Their Implementation. /Journal of Archaeological Method and Theory/, 24(2), 424–450. http://dx.doi.org/10.1007/s10816-015-9272-9
-- Munaf\`o, Marcus R., Nosek, B. A., Bishop, D. V. M., /et al./ (2017). A manifesto for reproducible science. /Nature Human Behaviour/, 1(1), 1–9. http://dx.doi.org/10.1038/s41562-016-0021
+- Munafò, Marcus R., Nosek, B. A., Bishop, D. V. M., /et al./ (2017). A manifesto for reproducible science. /Nature Human Behaviour/, 1(1), 1–9. http://dx.doi.org/10.1038/s41562-016-0021
 
 
