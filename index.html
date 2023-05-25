@@ -34,74 +34,112 @@
 </section>
 
 <section>
-<section id="slide-org145ffad">
-<h2 id="org145ffad"><span class="section-number-2">1.</span> Ouvrir (simplement)</h2>
+<section id="slide-orgfb44a64">
+<h2 id="orgfb44a64"><span class="section-number-2">1.</span> Ouvrir (simplement)</h2>
 <div class="outline-text-2" id="text-1">
 </div>
 </section>
 </section>
 <section>
-<section id="slide-org5032b5f">
-<h3 id="org5032b5f"><span class="section-number-3">1.1.</span> Versionner avec Git, publier sur des forges</h3>
+<section id="slide-orga144b65">
+<h3 id="orga144b65"><span class="section-number-3">1.1.</span> Versionner avec Git, publier sur des forges</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-orgaea2b9a">
-<h3 id="orgaea2b9a"><span class="section-number-3">1.2.</span> Rendre son code reproductible (exemple en R avec groundhog ou renv)</h3>
+<section id="slide-org6cfc0df">
+<h3 id="org6cfc0df"><span class="section-number-3">1.2.</span> Rendre son code reproductible (exemple en R avec groundhog ou renv)</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-org8225c67">
-<h3 id="org8225c67"><span class="section-number-3">1.3.</span> Quelques exemples concrets</h3>
+<section id="slide-org5d01d8c">
+<h3 id="org5d01d8c"><span class="section-number-3">1.3.</span> Quelques exemples concrets</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-orgfcf3b34">
-<h2 id="orgfcf3b34"><span class="section-number-2">2.</span> Partager (avec les meilleures pratiques)</h2>
+<section id="slide-org773b621">
+<h2 id="org773b621"><span class="section-number-2">2.</span> Partager (avec les meilleures pratiques)</h2>
 <div class="outline-text-2" id="text-2">
 </div>
 </section>
 </section>
 <section>
-<section id="slide-orgc6c863f">
-<h3 id="orgc6c863f"><span class="section-number-3">2.1.</span> Au-delà du script : les notebooks (Jupyter, Quarto, Org)</h3>
+<section id="slide-orgb0cf187">
+<h3 id="orgb0cf187"><span class="section-number-3">2.1.</span> Au-delà du script : les notebooks (Jupyter, Quarto, Org)</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-orgae6e47a">
-<h3 id="orgae6e47a"><span class="section-number-3">2.2.</span> Binder (avec exemple de dépôt associé à une publication)</h3>
+<section id="slide-org49b6dca">
+<h3 id="org49b6dca"><span class="section-number-3">2.2.</span> Binder (avec exemple de dépôt associé à une publication)</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-orge4ed340">
-<h3 id="orge4ed340"><span class="section-number-3">2.3.</span> Docker, Guix : évoquer seulement</h3>
+<section id="slide-orge84631f">
+<h3 id="orge84631f"><span class="section-number-3">2.3.</span> Docker, Guix : évoquer seulement</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-org10fea16">
-<h2 id="org10fea16"><span class="section-number-2">3.</span> Archiver</h2>
+<section id="slide-org140e83c">
+<h2 id="org140e83c"><span class="section-number-2">3.</span> Archiver</h2>
 <div class="outline-text-2" id="text-3">
 </div>
 </section>
 </section>
 <section>
-<section id="slide-orgded1ffe">
-<h3 id="orgded1ffe"><span class="section-number-3">3.1.</span> Zenodo / Nakala (avec exemples de dépôt associé à une publication)</h3>
+<section id="slide-org1a43af6">
+<h3 id="org1a43af6"><span class="section-number-3">3.1.</span> Principes</h3>
+<ul>
+<li>Les dépôts sur des forges Git (GitLab, GitHub, &#x2026;) ne constituent pas des archives pérennes : ils peuvent disparaître&#x2026; ou devenir payants !</li>
+<li>Plusieurs initiatives proposent au contraire un archivage pérenne du code informatique. Par exemple, Zenodo (dépôt volontaire par l&rsquo;auteur du code), ou Software Heritage (moisson automatique à partir de plusieurs sources).</li>
+<li>Il faut donc bien distinguer les <i>plateformes de développement</i> (forges Git), et les <i>entrepôts d&rsquo;archivage</i>.</li>
+
+</ul>
 
 </section>
 </section>
 <section>
-<section id="slide-org92a5d01">
-<h3 id="org92a5d01"><span class="section-number-3">3.2.</span> Software Heritage</h3>
+<section id="slide-orgaa865cf">
+<h3 id="orgaa865cf"><span class="section-number-3">3.2.</span> Zenodo</h3>
+<div class="column" style="float:left; width: 50%">
 <ul>
-<li>Les dépôts sur des forges Git (GitLab, GitHub, &#x2026;) ne constituent pas des archives pérennes : ils peuvent disparaître&#x2026; ou devenir payants !</li>
-<li>À l&rsquo;opposé, <a href="https://www.softwareheritage.org/?lang=fr">Software Heritage</a> est une initiative à but non lucratif (issue de l&rsquo;Inria), garantissant un archivage pérenne.</li>
+<li><a href="https://zenodo.org/">Zenodo</a> est une plateforme d&rsquo;archivage de code et de données créée par le CERN.</li>
+<li>Tout dépôt sur Zenodo est définitif : ce qui y est déposé ne peut plus être retiré. En revanche, de nouvelles versions logicielles peuvent être soumises (correction de bugs, ajout de fonctionnalités, etc.).</li>
+<li>Tout dépôt sur Zenodo permet de recevoir un DOI : le logiciel devient donc citable en lui-même.</li>
+
+</ul>
+</div>
+
+<div class="column" style="float:right; width: 50%">
+
+<div id="orge14fa8a" class="figure">
+<p><img src="./images/zenodo-logo.png" alt="zenodo-logo.png" />
+</p>
+</div>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org9427985">
+<h3 id="org9427985">Exemple d&rsquo;archivage d&rsquo;un package Julia</h3>
+
+<div id="orgdc3404d" class="figure">
+<p><img src="./images/zenodo.png" alt="zenodo.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org1508b1b">
+<h3 id="org1508b1b"><span class="section-number-3">3.3.</span> Software Heritage</h3>
+<ul>
+<li><a href="https://www.softwareheritage.org/?lang=fr">Software Heritage</a> est une initiative à but non lucratif (issue de l&rsquo;Inria), garantissant un archivage pérenne.</li>
 <li>Software Heritage se donne pour mission <i>&ldquo;de fournir une archive uniformisée, universelle, de tout le patrimoine logiciel de l&rsquo;humanité&rdquo;</i>.</li>
 <li>Par défaut, Software Heritage moissonne automatiquement et périodiquement le contenu des dépôts GitLab / GitHub, des archives de paquets usuelles (CRAN, CTAN, Npm, Pypi, &#x2026;).</li>
 <li>On peut aussi soumettre directement une source logicielle qui n&rsquo;est pas moissonnée automatiquement.</li>
@@ -112,15 +150,26 @@
 </section>
 </section>
 <section>
-<section id="slide-orgc96cb51">
-<h2 id="orgc96cb51"><span class="section-number-2">4.</span> Outils pour se former</h2>
+<section id="slide-org1d9e615">
+<h3 id="org1d9e615">Exemple d&rsquo;archivage d&rsquo;un dépôt GitLab</h3>
+
+<div id="org5a532d3" class="figure">
+<p><img src="./images/rdss.png" alt="rdss.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org725cdab">
+<h2 id="org725cdab"><span class="section-number-2">4.</span> Outils pour se former</h2>
 <div class="outline-text-2" id="text-4">
 </div>
 </section>
 </section>
 <section>
-<section id="slide-org2dca610">
-<h3 id="org2dca610"><span class="section-number-3">4.1.</span> <i>Vers une recherche reproductible</i></h3>
+<section id="slide-orgcf7c687">
+<h3 id="orgcf7c687"><span class="section-number-3">4.1.</span> <i>Vers une recherche reproductible</i></h3>
 <div class="column" style="float:left; text-align:left; width: 40%">
 <ul>
 <li>Un livre par Desquilbet et al., librement disponible en ligne sur HAL : <a href="https://hal.science/hal-02144142">https://hal.science/hal-02144142</a></li>
@@ -131,7 +180,7 @@
 
 <div class="column" style="float:right; text-align:center; width: 60%">
 
-<div id="orgdd5e1db" class="figure">
+<div id="orgaf17b5d" class="figure">
 <p><img src="./images/desquilbet.png" alt="desquilbet.png" />
 </p>
 </div>
@@ -140,8 +189,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org78083b5">
-<h3 id="org78083b5"><span class="section-number-3">4.2.</span> Le MOOC Recherche reproductible</h3>
+<section id="slide-org5b9322c">
+<h3 id="org5b9322c"><span class="section-number-3">4.2.</span> Le MOOC Recherche reproductible</h3>
 <div class="column" style="float:left; width: 40%">
 <ul>
 <li>Un cours en ligne sur France Université Numérique (FUN), traitant de tous les aspects liés à la science ouverte : cahiers de laboratoire, transparence, reproductibilité computationnelle, etc.</li>
@@ -152,7 +201,7 @@
 
 <div class="column" style="float:right; width: 60%">
 
-<div id="orgc576ffb" class="figure">
+<div id="org02e09c2" class="figure">
 <p><img src="./images/mooc_rr.png" alt="mooc_rr.png" />
 </p>
 </div>
@@ -161,8 +210,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org5c317b5">
-<h3 id="org5c317b5"><span class="section-number-3">4.3.</span> Des &ldquo;articles-tutoriels&rdquo;</h3>
+<section id="slide-org4bd0e7a">
+<h3 id="org4bd0e7a"><span class="section-number-3">4.3.</span> Des &ldquo;articles-tutoriels&rdquo;</h3>
 <p>
 De nombreux articles, publiés dans des revues académiques, fournissent des introductions très pédagogiques aux outils et enjeux de la science ouverte :
 </p>

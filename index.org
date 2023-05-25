@@ -26,15 +26,42 @@
 ** Docker, Guix : évoquer seulement
 
 * Archiver
-** Zenodo / Nakala (avec exemples de dépôt associé à une publication)
+** Principes
+- Les dépôts sur des forges Git (GitLab, GitHub, ...) ne constituent pas des archives pérennes : ils peuvent disparaître... ou devenir payants !
+- Plusieurs initiatives proposent au contraire un archivage pérenne du code informatique. Par exemple, Zenodo (dépôt volontaire par l'auteur du code), ou Software Heritage (moisson automatique à partir de plusieurs sources).
+- Il faut donc bien distinguer les /plateformes de développement/ (forges Git), et les /entrepôts d'archivage/.
+
+** Zenodo
+#+REVEAL_HTML: <div class="column" style="float:left; width: 50%">
+- [[https://zenodo.org/][Zenodo]] est une plateforme d'archivage de code et de données créée par le CERN.
+- Tout dépôt sur Zenodo est définitif : ce qui y est déposé ne peut plus être retiré. En revanche, de nouvelles versions logicielles peuvent être soumises (correction de bugs, ajout de fonctionnalités, etc.).
+- Tout dépôt sur Zenodo permet de recevoir un DOI : le logiciel devient donc citable en lui-même.
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 50%">
+[[./images/zenodo-logo.png]]
+#+REVEAL_HTML: </div>
+
+** Exemple d'archivage d'un package Julia
+   :PROPERTIES:
+   :UNNUMBERED: t
+   :END:
+
+[[./images/zenodo.png]]
 
 ** Software Heritage
-- Les dépôts sur des forges Git (GitLab, GitHub, ...) ne constituent pas des archives pérennes : ils peuvent disparaître... ou devenir payants !
-- À l'opposé, [[https://www.softwareheritage.org/?lang=fr][Software Heritage]] est une initiative à but non lucratif (issue de l'Inria), garantissant un archivage pérenne.
+- [[https://www.softwareheritage.org/?lang=fr][Software Heritage]] est une initiative à but non lucratif (issue de l'Inria), garantissant un archivage pérenne.
 - Software Heritage se donne pour mission /"de fournir une archive uniformisée, universelle, de tout le patrimoine logiciel de l'humanité"/.
 - Par défaut, Software Heritage moissonne automatiquement et périodiquement le contenu des dépôts GitLab / GitHub, des archives de paquets usuelles (CRAN, CTAN, Npm, Pypi, ...).
 - On peut aussi soumettre directement une source logicielle qui n'est pas moissonnée automatiquement.
 - Les logiciels archivés (via leurs /blobs/ Git) reçoivent un identifiant unique, le SWHID.
+
+** Exemple d'archivage d'un dépôt GitLab
+   :PROPERTIES:
+   :UNNUMBERED: t
+   :END:
+
+[[./images/rdss.png]]
 
 * Outils pour se former
 ** /Vers une recherche reproductible/
