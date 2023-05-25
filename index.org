@@ -3,6 +3,7 @@
 #+EMAIL: frederic.santos@u-bordeaux.fr
 #+DATE: Lundi 22 juin 2023
 #+REVEAL_INIT_OPTIONS: width:1650, height:950, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'fade', slideNumber:'c/t'
+#+STARTUP: num
 #+OPTIONS: toc:nil email:t timestamp:nil reveal_global_header:t
 #+REVEAL_THEME: sky
 #+REVEAL_HLEVEL: 2
@@ -10,5 +11,52 @@
 #+REVEAL_POSTAMBLE: <p> Créé par Frédéric Santos </p>
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 
-* Test
-Test
+* Ouvrir (simplement)
+** Versionner avec Git, publier sur des forges
+
+** Rendre son code reproductible (exemple en R avec groundhog ou renv)
+
+** Quelques exemples concrets
+
+* Partager (avec les meilleures pratiques)
+** Au-delà du script : les notebooks (Jupyter, Quarto, Org)
+
+** Binder (avec exemple de dépôt associé à une publication)
+
+** Docker, Guix : évoquer seulement
+
+* Archiver
+** Zenodo / Nakala (avec exemples de dépôt associé à une publication)
+
+** Software Heritage (consulter les docs envoyés par Sabrina)
+
+* Outils pour se former
+** /Vers une recherche reproductible/
+#+REVEAL_HTML: <div class="column" style="float:left; text-align:left; width: 40%">
+- Un livre par Desquilbet et al., librement disponible en ligne sur HAL : https://hal.science/hal-02144142
+- Une approche pratique partant de problématiques réelles, après un "travail de terrain" auprès de la communauté académique.
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; text-align:center; width: 60%">
+[[./images/desquilbet.png]]
+#+REVEAL_HTML: </div>
+
+** Le MOOC Recherche reproductible
+#+REVEAL_HTML: <div class="column" style="float:left; width: 40%">
+- Un cours en ligne sur France Université Numérique (FUN), traitant de tous les aspects liés à la science ouverte : cahiers de laboratoire, transparence, reproductibilité computationnelle, etc.
+- Plusieurs parcours disponibles en fonction du langage (Python ou R) et de l'environnement de développement (Emacs, Jupyter ou Rstudio).
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 60%">
+[[./images/mooc_rr.png]]
+#+REVEAL_HTML: </div>
+
+** Des "articles-tutoriels"
+De nombreux articles, publiés dans des revues académiques, fournissent des introductions très pédagogiques aux outils et enjeux de la science ouverte :
+
+- Alston, J. M., & Rick, J. A. (2021). A Beginner's Guide to Conducting Reproducible Research. /The Bulletin of the Ecological Society of America/, 102(2), 01801. http://dx.doi.org/10.1002/bes2.1801
+- Marwick, B. (2017). Open Science in Archaeology. http://dx.doi.org/10.17605/OSF.IO/3D6XX
+- Marwick, B. (2017). Computational Reproducibility in Archaeological Research: Basic Principles and a Case Study of Their Implementation. /Journal of Archaeological Method and Theory/, 24(2), 424–450. http://dx.doi.org/10.1007/s10816-015-9272-9
+- Munaf\`o, Marcus R., Nosek, B. A., Bishop, D. V. M., /et al./ (2017). A manifesto for reproducible science. /Nature Human Behaviour/, 1(1), 1–9. http://dx.doi.org/10.1038/s41562-016-0021
+
+
