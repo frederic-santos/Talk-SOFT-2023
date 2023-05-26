@@ -4,7 +4,7 @@
 #+DATE: Lundi 22 juin 2023
 #+REVEAL_INIT_OPTIONS: width:1650, height:950, margin: 0.1, minScale:0.2, maxScale:2.5, transition:'fade', slideNumber:'c/t'
 #+STARTUP: num
-#+OPTIONS: toc:nil email:t timestamp:nil reveal_global_header:t
+#+OPTIONS: toc:nil email:t timestamp:nil reveal_global_header:t todo:nil
 #+REVEAL_THEME: sky
 #+REVEAL_HLEVEL: 2
 #+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Atelier pour les journées SOFT (Bordeaux, 2023).">
@@ -12,14 +12,32 @@
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 
 * Ouvrir (simplement)
-** Versionner avec Git, publier sur des forges
-
-** Rendre son code reproductible (exemple en R avec groundhog ou renv)
+** TODO Versionner avec Git, publier sur des forges
 
 ** Quelques exemples concrets
 
+** Rendre son code plus reproductible
+- Ouvrir son code assure la /transparence/ des analyses réalisées, mais pas nécessairement sa /reproductibilité/.
+- D'un ordinateur à l'autre, les résultats pourront varier (ou le code pourra même ne plus s'exécuter du tout !) en fonction des versions logicielles, des versions de packages, etc.
+- En plus de l'ouverture du code, une bonne pratique est de décrire, ou de rendre portable, l'environnement logiciel que l'on a utilisé.
+
+*** Des solutions pour Julia ou Python
+- En Julia, de simples [[https://pkgdocs.julialang.org/v1/toml-files/][fichiers texte de "manifeste"]] (=Project.toml=, =Manifest.toml=) permettent de spécifier les versions de packages désirées à l'échelle de chaque projet. Ces fichiers rendent l'environnement logiciel exact portable sur une autre machine sans difficulté, et assurent la reproductibilité des résultats.
+- La philosophie de Python est équivalente, avec là encore /fichiers de configuration/ que l'on peut définir à l'échelle du projet.
+
+*** Des solutions pour R
+#+REVEAL_HTML: <div class="column" style="float:left; width: 60%">
+- En R, il n'existe pas d'équivalent "natif" des fichiers de configuration de Julia ou Python.
+- L'outil le plus léger est le package ={groundhog}=, [[https://CRAN.R-project.org/package=groundhog][disponible sur le CRAN]], qui permet de spécifier et d'utiliser les versions de packages R (et leurs dépendances) correspondant une date précise.
+- Un outil plus lourd mais plus complet est le package ={renv}=, qui permet lui aussi de spécifier et d'isoler des versions de packages spécifiques pour un projet.
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; width: 40%">
+[[./images/groundhog.png]]
+#+REVEAL_HTML: </div>
+
 * Partager (avec les meilleures pratiques)
-** Au-delà du script : les notebooks (Jupyter, Quarto, Org)
+** TODO Au-delà du script : les notebooks (Jupyter, Quarto, Org)
 
 ** Reproductibilité computationnelle avec Binder
 
