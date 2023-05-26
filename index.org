@@ -21,17 +21,31 @@
 * Partager (avec les meilleures pratiques)
 ** Au-delà du script : les notebooks (Jupyter, Quarto, Org)
 
-** Reproductibilité du code avec Binder
+** Reproductibilité computationnelle avec Binder
 
-Bla
+#+REVEAL_HTML: <div class="column" style="float:left; text-align:left; width: 50%">
+- Le [[https://mybinder.org/][Binder Project]] (MyBinder) permet de partager aisément des environnements logiciels reproductibles, exécutables sans effort par l'utilisateur final (reviewer, collègue, ...).
+- Binder prend en charge les langages de programmation usuels en science des données : Julia, Python, R.
+- Actuellement maintenu par l'équipe de Jupyter, il prend aussi en charge Rstudio.
+#+REVEAL_HTML: </div>
+
+#+REVEAL_HTML: <div class="column" style="float:right; text-align:center; width: 50%">
+[[./images/binder-logo.jpg]]
+#+REVEAL_HTML: </div>
 
 *** Principe
 
-Bli
+1. Avoir un dépôt GitLab / GitHub.
+2. Y avoir entreposé du code informatique sous la forme de scripts, ou mieux, de notebooks (Jupyter, Quarto, Rmarkdown).
+3. Avoir spécifié des versions du langage utilisé (par exemple, R 4.2.3) et des packages mobilisés pour les analyses.
+4. Soumettre le lien du dépôt au service [[https://mybinder.org/][MyBinder]].
+5. Un environnement spécifique est alors créé sur un serveur distant, et devient exécutable par tout utilisateur simplement via son navigateur web.
 
-*** Illustration
+*** Un exemple de publication "binderisée"
 
-Blo
+- *Référence* : Arranz-Otaegui, A., & Roe, J. (2023). Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia. /Vegetation History and Archaeobotany/. http://dx.doi.org/10.1007/s00334-023-00917-1
+- Dépôt GitHub : https://github.com/joeroe/SWAsiaNeolithicFounderCrops
+- [[https://mybinder.org/v2/gh/joeroe/SWAsiaNeolithicFounderCrops/main?urlpath=rstudio][Lien Binder]] vers le manuscrit reproductible.
 
 ** Des solutions encore plus avancées : Docker, Guix
 
