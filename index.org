@@ -21,9 +21,29 @@
 * Partager (avec les meilleures pratiques)
 ** Au-delà du script : les notebooks (Jupyter, Quarto, Org)
 
-** Binder (avec exemple de dépôt associé à une publication)
+** Reproductibilité du code avec Binder
 
-** Docker, Guix : évoquer seulement
+Bla
+
+*** Principe
+
+Bli
+
+*** Illustration
+
+Blo
+
+** Des solutions encore plus avancées : Docker, Guix
+
+1. *La conteneurisation*. Pour aller plus loin, on peut aussi [[https://fr.wikipedia.org/wiki/Conteneur_(virtualisation)]["conteneuriser"]] son code, en isolant l'ensemble de l'environnement logiciel (versions de l'OS, des librairies système, du langage de programmation et de ses paquets) dans une forme légère de machine virtuelle, exécutable sur tout ordinateur. Cela rend le code intégralement reproductible. [[https://www.docker.com/][Docker]] (et sa plateforme de partage [[https://hub.docker.com/][DockerHub]]) est une solution populaire, mais est propriétaire et privée.
+2. [[https://guix.gnu.org/][*GNU Guix*]] est une alternative libre, mais plus complexe et moins universelle. Il s'agit d'un système de gestion de paquets pour le système GNU, permettant de déployer des environnements reproductibles.
+
+** Un exemple de publication "Dockerisée"
+
+- *Référence* : Santos, Frédéric (2020). Modern methods for old data: An overview of some robust methods for outliers detection with applications in osteology. /Journal of Archaeological Science: Reports/, 32, 102423. 
+- La publication finale : http://dx.doi.org/10.1016/j.jasrep.2020.102423
+- Le dépôt GitLab associé : https://gitlab.com/f-santos/reproducibility-package-for-santos-2020-jasr
+- [[https://hub.docker.com/repository/docker/fredsantos/compendium_santos2020_jasrep][Le conteneur logiciel permettant de reproduire les résultats]]
 
 * Archiver
 ** Principes
