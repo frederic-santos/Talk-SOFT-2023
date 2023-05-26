@@ -19,7 +19,11 @@
 - *Choix de la forge*. La politique de sécurité des services d'information du CNRS ou d'UB est assez floue sur ce point, mais l'usage de forges Git privées (GitHub appartient à Microsoft) peut être vu comme problématique. On pourra préférer l'une des forges institutionnelles ([[https://gitlab.huma-num.fr/users/sign_in][Huma-Num]], [[https://gitub.u-bordeaux.fr/][GitUB]]) basées sur GitLab.
 
 * IN-PROGRESS Partager (avec de meilleures pratiques)
-** TODO Au-delà du script : les notebooks (Jupyter, Quarto, Org)
+** Au-delà du script : les notebooks
+- Les notebooks (ou /documents computationnels/) permettent de mélanger du code, des sorties de code et du texte en langue naturelle dans un même document, suivant la philosophie de la /programmation lettrée/ de Donald Knuth.
+- Offre la meilleure présentation possible d'un code, par la possibilité de le documenter exhaustivement.
+- Plusieurs systèmes possibles : [[https://jupyter.org/][JupyterLab]] (Julia, R, Python), [[https://plutojl.org/][Pluto]] (Julia uniquement), [[https://orgmode.org/worg/org-contrib/babel/][Org-mode]] (tous langages), [[https://quarto.org/][Quarto]] (Julia, Observable, Python, R), etc.
+- [[https://mybinder.org/v2/gh/binder-examples/r/master?filepath=index.ipynb][Une démonstration d'un notebook R + Jupyter]]
 
 ** Rendre son code plus reproductible
 - Ouvrir son code assure la /transparence/ des analyses réalisées, mais pas nécessairement sa /reproductibilité/.
@@ -41,10 +45,11 @@
 [[./images/groundhog.png]]
 #+REVEAL_HTML: </div>
 
-
-** TODO Quelques exemples concrets
-Le fait de partager le code (et si possible, le manuscrit) d'un article scientifique en ayant pris quelques mesures simples de reproductibilité est généralement connu sous le nom de /compendium/. En voici quelques exemples simples :
-
+** Quelques exemples concrets
+Le fait de partager le code (et si possible, le manuscrit) d'un article scientifique en ayant pris quelques mesures simples de reproductibilité est généralement connu sous le nom de /compendium/. En voici quelques exemples récents, librement accessibles :
+- [[https://github.com/ercrema/NeolithicKoreaDemography][Un dépôt GitHub avec des notebooks Rmarkdown]] accompagnant une pré-publication
+- [[https://github.com/sjoleary/CLE_GSI][Un exemple similaire]] dans une autre discipline
+- [[https://aqueff.github.io/LapidaryCaribbeanRegionalArticle/][Une pré-publication sous forme HTML]] rédigée avec Quarto
  
 ** Reproductibilité computationnelle avec Binder
 
