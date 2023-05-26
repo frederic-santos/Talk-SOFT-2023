@@ -34,21 +34,46 @@
 </section>
 
 <section>
-<section id="slide-org914f865">
-<h2 id="org914f865"><span class="section-number-2">1.</span> Ouvrir (simplement)</h2>
+<section id="slide-org8548f4b">
+<h2 id="org8548f4b"><span class="section-number-2">1.</span> Ouvrir (simplement)</h2>
 <div class="outline-text-2" id="text-1">
 </div>
 </section>
 </section>
 <section>
-<section id="slide-orge072b3c">
-<h3 id="orge072b3c"><span class="section-number-3">1.1.</span> Versionner avec Git, publier sur des forges</h3>
+<section id="slide-org9f3965a">
+<h3 id="org9f3965a"><span class="section-number-3">1.1.</span> Versionner avec Git, publier sur des forges</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-org351fab0">
-<h3 id="org351fab0"><span class="section-number-3">1.2.</span> Rendre son code plus reproductible</h3>
+<section id="slide-orgf05e7f7">
+<h3 id="orgf05e7f7"><span class="section-number-3">1.2.</span> Quelques aspects &ldquo;juridiques&rdquo;</h3>
+<ul>
+<li>Licences</li>
+<li>Autorisation des tutelles ?</li>
+<li>Forges institutionnelles (HumaNum, GitUB).</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org3deb226">
+<h2 id="org3deb226"><span class="section-number-2">2.</span> Partager (avec de meilleures pratiques)</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org8a65f78">
+<h3 id="org8a65f78"><span class="section-number-3">2.1.</span> Au-delà du script : les notebooks (Jupyter, Quarto, Org)</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org8a716e8">
+<h3 id="org8a716e8"><span class="section-number-3">2.2.</span> Rendre son code plus reproductible</h3>
 <ul>
 <li>Ouvrir son code assure la <i>transparence</i> des analyses réalisées, mais pas nécessairement sa <i>reproductibilité</i>.</li>
 <li>D&rsquo;un ordinateur à l&rsquo;autre, les résultats pourront varier (ou le code pourra même ne plus s&rsquo;exécuter du tout !) en fonction des versions logicielles, des versions de packages, etc.</li>
@@ -57,8 +82,8 @@
 </ul>
 
 </section>
-<section id="slide-orge88917e">
-<h4 id="orge88917e"><span class="section-number-4">1.2.1.</span> Des solutions pour Julia ou Python</h4>
+<section id="slide-orgb3b1907">
+<h4 id="orgb3b1907"><span class="section-number-4">2.2.1.</span> Des solutions pour Julia ou Python</h4>
 <ul>
 <li>En Julia, de simples <a href="https://pkgdocs.julialang.org/v1/toml-files/">fichiers texte de &ldquo;manifeste&rdquo;</a> (<code>Project.toml</code>, <code>Manifest.toml</code>) permettent de spécifier les versions de packages désirées à l&rsquo;échelle de chaque projet. Ces fichiers rendent l&rsquo;environnement logiciel exact portable sur une autre machine sans difficulté, et assurent la reproductibilité des résultats.</li>
 <li>La philosophie de Python est équivalente, avec là encore <i>fichiers de configuration</i> que l&rsquo;on peut définir à l&rsquo;échelle du projet.</li>
@@ -66,8 +91,8 @@
 </ul>
 
 </section>
-<section id="slide-org00ac769">
-<h4 id="org00ac769"><span class="section-number-4">1.2.2.</span> Des solutions pour R</h4>
+<section id="slide-org197338e">
+<h4 id="org197338e"><span class="section-number-4">2.2.2.</span> Des solutions pour R</h4>
 <div class="column" style="float:left; width: 60%">
 <ul>
 <li>En R, il n&rsquo;existe pas d&rsquo;équivalent &ldquo;natif&rdquo; des fichiers de configuration de Julia ou Python.</li>
@@ -79,36 +104,28 @@
 
 <div class="column" style="float:right; width: 40%">
 
-<div id="org8297490" class="figure">
+<div id="orgc8ef7cc" class="figure">
 <p><img src="./images/groundhog.png" alt="groundhog.png" />
 </p>
 </div>
 </div>
 
-</section>
-</section>
-<section>
-<section id="slide-org74b04e3">
-<h3 id="org74b04e3"><span class="section-number-3">1.3.</span> Quelques exemples concrets</h3>
 
 </section>
 </section>
 <section>
-<section id="slide-org5184bbb">
-<h2 id="org5184bbb"><span class="section-number-2">2.</span> Partager (avec les meilleures pratiques)</h2>
-<div class="outline-text-2" id="text-2">
-</div>
-</section>
-</section>
-<section>
-<section id="slide-orgeeb6830">
-<h3 id="orgeeb6830"><span class="section-number-3">2.1.</span> Au-delà du script : les notebooks (Jupyter, Quarto, Org)</h3>
+<section id="slide-org7f63990">
+<h3 id="org7f63990"><span class="section-number-3">2.3.</span> Quelques exemples concrets</h3>
+<p>
+Le fait de partager le code (et si possible, le manuscrit) d&rsquo;un article scientifique en ayant pris quelques mesures simples de reproductibilité est généralement connu sous le nom de <i>compendium</i>. En voici quelques exemples simples :
+</p>
+
 
 </section>
 </section>
 <section>
-<section id="slide-org3feabc0">
-<h3 id="org3feabc0"><span class="section-number-3">2.2.</span> Reproductibilité computationnelle avec Binder</h3>
+<section id="slide-orgcab52a7">
+<h3 id="orgcab52a7"><span class="section-number-3">2.4.</span> Reproductibilité computationnelle avec Binder</h3>
 <div class="column" style="float:left; text-align:left; width: 50%">
 <ul>
 <li>Le <a href="https://mybinder.org/">Binder Project</a> (MyBinder) permet de partager aisément des environnements logiciels reproductibles, exécutables sans effort par l&rsquo;utilisateur final (reviewer, collègue, &#x2026;).</li>
@@ -120,15 +137,15 @@
 
 <div class="column" style="float:right; text-align:center; width: 50%">
 
-<div id="orgf635b1a" class="figure">
+<div id="org4f6c781" class="figure">
 <p><img src="./images/binder-logo.jpg" alt="binder-logo.jpg" />
 </p>
 </div>
 </div>
 
 </section>
-<section id="slide-org5c0c0cd">
-<h4 id="org5c0c0cd"><span class="section-number-4">2.2.1.</span> Principe</h4>
+<section id="slide-org9d98753">
+<h4 id="org9d98753"><span class="section-number-4">2.4.1.</span> Principe</h4>
 <ol>
 <li>Avoir un dépôt GitLab / GitHub.</li>
 <li>Y avoir entreposé du code informatique sous la forme de scripts, ou mieux, de notebooks (Jupyter, Quarto, Rmarkdown).</li>
@@ -139,8 +156,8 @@
 </ol>
 
 </section>
-<section id="slide-orgb1d7229">
-<h4 id="orgb1d7229"><span class="section-number-4">2.2.2.</span> Un exemple de publication &ldquo;binderisée&rdquo;</h4>
+<section id="slide-org9adaaa7">
+<h4 id="org9adaaa7"><span class="section-number-4">2.4.2.</span> Un exemple de publication &ldquo;binderisée&rdquo;</h4>
 <ul>
 <li><b>Référence</b> : Arranz-Otaegui, A., &amp; Roe, J. (2023). Revisiting the concept of the &ldquo;Neolithic Founder Crops&rdquo; in southwest Asia. <i>Vegetation History and Archaeobotany</i>. <a href="http://dx.doi.org/10.1007/s00334-023-00917-1">http://dx.doi.org/10.1007/s00334-023-00917-1</a></li>
 <li>Dépôt GitHub : <a href="https://github.com/joeroe/SWAsiaNeolithicFounderCrops">https://github.com/joeroe/SWAsiaNeolithicFounderCrops</a></li>
@@ -151,8 +168,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org6848c48">
-<h3 id="org6848c48"><span class="section-number-3">2.3.</span> Des solutions encore plus avancées : Docker, Guix</h3>
+<section id="slide-orgd32cb7a">
+<h3 id="orgd32cb7a"><span class="section-number-3">2.5.</span> Des solutions encore plus avancées : Docker, Guix</h3>
 <ol>
 <li><b>La conteneurisation</b>. Pour aller plus loin, on peut aussi <a href="https://fr.wikipedia.org/wiki/Conteneur_(virtualisation)">&ldquo;conteneuriser&rdquo;</a> son code, en isolant l&rsquo;ensemble de l&rsquo;environnement logiciel (versions de l&rsquo;OS, des librairies système, du langage de programmation et de ses paquets) dans une forme légère de machine virtuelle, exécutable sur tout ordinateur. Cela rend le code intégralement reproductible. <a href="https://www.docker.com/">Docker</a> (et sa plateforme de partage <a href="https://hub.docker.com/">DockerHub</a>) est une solution populaire, mais est propriétaire et privée.</li>
 <li><a href="https://guix.gnu.org/"><b>GNU Guix</b></a> est une alternative libre, mais plus complexe et moins universelle. Il s&rsquo;agit d&rsquo;un système de gestion de paquets pour le système GNU, permettant de déployer des environnements reproductibles.</li>
@@ -162,8 +179,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org65c0bdd">
-<h3 id="org65c0bdd"><span class="section-number-3">2.4.</span> Un exemple de publication &ldquo;Dockerisée&rdquo;</h3>
+<section id="slide-org862c28b">
+<h3 id="org862c28b"><span class="section-number-3">2.6.</span> Un exemple de publication &ldquo;Dockerisée&rdquo;</h3>
 <ul>
 <li><b>Référence</b> : Santos, Frédéric (2020). Modern methods for old data: An overview of some robust methods for outliers detection with applications in osteology. <i>Journal of Archaeological Science: Reports</i>, 32, 102423.</li>
 <li>La publication finale : <a href="http://dx.doi.org/10.1016/j.jasrep.2020.102423">http://dx.doi.org/10.1016/j.jasrep.2020.102423</a></li>
@@ -175,15 +192,13 @@
 </section>
 </section>
 <section>
-<section id="slide-org91b70e9">
-<h2 id="org91b70e9"><span class="section-number-2">3.</span> Archiver</h2>
-<div class="outline-text-2" id="text-3">
-</div>
+<section id="slide-orga0085e5">
+<h2 id="orga0085e5"><span class="section-number-2">3.</span> Archiver</h2>
 </section>
 </section>
 <section>
-<section id="slide-orgc48704b">
-<h3 id="orgc48704b"><span class="section-number-3">3.1.</span> Principes</h3>
+<section id="slide-org62fb5de">
+<h3 id="org62fb5de"><span class="section-number-3">3.1.</span> Principes</h3>
 <ul>
 <li>Les dépôts sur des forges Git (GitLab, GitHub, &#x2026;) ne constituent pas des archives pérennes : ils peuvent disparaître&#x2026; ou devenir payants !</li>
 <li>Plusieurs initiatives proposent au contraire un archivage pérenne du code informatique. Par exemple, Zenodo (dépôt volontaire par l&rsquo;auteur du code), ou Software Heritage (moisson automatique à partir de plusieurs sources).</li>
@@ -194,8 +209,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org3609373">
-<h3 id="org3609373"><span class="section-number-3">3.2.</span> Zenodo</h3>
+<section id="slide-org2612b53">
+<h3 id="org2612b53"><span class="section-number-3">3.2.</span> Zenodo</h3>
 <div class="column" style="float:left; width: 50%">
 <ul>
 <li><a href="https://zenodo.org/">Zenodo</a> est une plateforme d&rsquo;archivage de code et de données créée par le CERN.</li>
@@ -207,7 +222,7 @@
 
 <div class="column" style="float:right; width: 50%">
 
-<div id="org0dda6ed" class="figure">
+<div id="orgff9fa6a" class="figure">
 <p><img src="./images/zenodo-logo.png" alt="zenodo-logo.png" />
 </p>
 </div>
@@ -216,10 +231,10 @@
 </section>
 </section>
 <section>
-<section id="slide-org19973df">
-<h3 id="org19973df">Exemple d&rsquo;archivage d&rsquo;un package Julia</h3>
+<section id="slide-orgd47669c">
+<h3 id="orgd47669c">Exemple d&rsquo;archivage d&rsquo;un package Julia</h3>
 
-<div id="orgf9d3005" class="figure">
+<div id="orgc46150f" class="figure">
 <p><img src="./images/zenodo.png" alt="zenodo.png" />
 </p>
 </div>
@@ -227,8 +242,8 @@
 </section>
 </section>
 <section>
-<section id="slide-orgd6d6811">
-<h3 id="orgd6d6811"><span class="section-number-3">3.3.</span> Software Heritage</h3>
+<section id="slide-org17f0864">
+<h3 id="org17f0864"><span class="section-number-3">3.3.</span> Software Heritage</h3>
 <ul>
 <li><a href="https://www.softwareheritage.org/?lang=fr">Software Heritage</a> est une initiative à but non lucratif (issue de l&rsquo;Inria), garantissant un archivage pérenne.</li>
 <li>Software Heritage se donne pour mission <i>&ldquo;de fournir une archive uniformisée, universelle, de tout le patrimoine logiciel de l&rsquo;humanité&rdquo;</i>.</li>
@@ -241,10 +256,10 @@
 </section>
 </section>
 <section>
-<section id="slide-orge09801b">
-<h3 id="orge09801b">Exemple d&rsquo;archivage d&rsquo;un dépôt GitLab</h3>
+<section id="slide-org7e1624c">
+<h3 id="org7e1624c">Exemple d&rsquo;archivage d&rsquo;un dépôt GitLab</h3>
 
-<div id="org698355c" class="figure">
+<div id="org2f6ef98" class="figure">
 <p><img src="./images/rdss.png" alt="rdss.png" />
 </p>
 </div>
@@ -252,15 +267,13 @@
 </section>
 </section>
 <section>
-<section id="slide-orgc8260ac">
-<h2 id="orgc8260ac"><span class="section-number-2">4.</span> Outils pour se former</h2>
-<div class="outline-text-2" id="text-4">
-</div>
+<section id="slide-org1a7c43d">
+<h2 id="org1a7c43d"><span class="section-number-2">4.</span> Outils pour se former</h2>
 </section>
 </section>
 <section>
-<section id="slide-orgadebd7a">
-<h3 id="orgadebd7a"><span class="section-number-3">4.1.</span> <i>Vers une recherche reproductible</i></h3>
+<section id="slide-orgbaaeddc">
+<h3 id="orgbaaeddc"><span class="section-number-3">4.1.</span> <i>Vers une recherche reproductible</i></h3>
 <div class="column" style="float:left; text-align:left; width: 40%">
 <ul>
 <li>Un livre par Desquilbet et al., librement disponible en ligne sur HAL : <a href="https://hal.science/hal-02144142">https://hal.science/hal-02144142</a></li>
@@ -271,7 +284,7 @@
 
 <div class="column" style="float:right; text-align:center; width: 60%">
 
-<div id="org79bc518" class="figure">
+<div id="org59408b7" class="figure">
 <p><img src="./images/desquilbet.png" alt="desquilbet.png" />
 </p>
 </div>
@@ -280,8 +293,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org97c1ce9">
-<h3 id="org97c1ce9"><span class="section-number-3">4.2.</span> Le MOOC Recherche reproductible</h3>
+<section id="slide-orge505215">
+<h3 id="orge505215"><span class="section-number-3">4.2.</span> Le MOOC Recherche reproductible</h3>
 <div class="column" style="float:left; width: 40%">
 <ul>
 <li>Un cours en ligne sur France Université Numérique (FUN), traitant de tous les aspects liés à la science ouverte : cahiers de laboratoire, transparence, reproductibilité computationnelle, etc.</li>
@@ -292,7 +305,7 @@
 
 <div class="column" style="float:right; width: 60%">
 
-<div id="orgbd9c22f" class="figure">
+<div id="orgac528d7" class="figure">
 <p><img src="./images/mooc_rr.png" alt="mooc_rr.png" />
 </p>
 </div>
@@ -301,8 +314,8 @@
 </section>
 </section>
 <section>
-<section id="slide-org10c6a2b">
-<h3 id="org10c6a2b"><span class="section-number-3">4.3.</span> Des &ldquo;articles-tutoriels&rdquo;</h3>
+<section id="slide-org3e2de51">
+<h3 id="org3e2de51"><span class="section-number-3">4.3.</span> Des &ldquo;articles-tutoriels&rdquo;</h3>
 <p>
 De nombreux articles, publiés dans des revues académiques, fournissent des introductions très pédagogiques aux outils et enjeux de la science ouverte :
 </p>

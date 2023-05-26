@@ -11,10 +11,16 @@
 #+REVEAL_POSTAMBLE: <p> Créé par Frédéric Santos </p>
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 
-* Ouvrir (simplement)
+* IN-PROGRESS Ouvrir (simplement)
 ** TODO Versionner avec Git, publier sur des forges
 
-** Quelques exemples concrets
+** TODO Quelques aspects "juridiques"
+- Licences
+- Autorisation des tutelles ?
+- Forges institutionnelles (HumaNum, GitUB).
+
+* IN-PROGRESS Partager (avec de meilleures pratiques)
+** TODO Au-delà du script : les notebooks (Jupyter, Quarto, Org)
 
 ** Rendre son code plus reproductible
 - Ouvrir son code assure la /transparence/ des analyses réalisées, mais pas nécessairement sa /reproductibilité/.
@@ -36,9 +42,11 @@
 [[./images/groundhog.png]]
 #+REVEAL_HTML: </div>
 
-* Partager (avec les meilleures pratiques)
-** TODO Au-delà du script : les notebooks (Jupyter, Quarto, Org)
 
+** TODO Quelques exemples concrets
+Le fait de partager le code (et si possible, le manuscrit) d'un article scientifique en ayant pris quelques mesures simples de reproductibilité est généralement connu sous le nom de /compendium/. En voici quelques exemples simples :
+
+ 
 ** Reproductibilité computationnelle avec Binder
 
 #+REVEAL_HTML: <div class="column" style="float:left; text-align:left; width: 50%">
@@ -77,7 +85,8 @@
 - Le dépôt GitLab associé : https://gitlab.com/f-santos/reproducibility-package-for-santos-2020-jasr
 - [[https://hub.docker.com/repository/docker/fredsantos/compendium_santos2020_jasrep][Le conteneur logiciel permettant de reproduire les résultats]]
 
-* Archiver
+* DONE Archiver
+  CLOSED: [2023-05-26 ven. 09:21]
 ** Principes
 - Les dépôts sur des forges Git (GitLab, GitHub, ...) ne constituent pas des archives pérennes : ils peuvent disparaître... ou devenir payants !
 - Plusieurs initiatives proposent au contraire un archivage pérenne du code informatique. Par exemple, Zenodo (dépôt volontaire par l'auteur du code), ou Software Heritage (moisson automatique à partir de plusieurs sources).
@@ -115,7 +124,8 @@
 
 [[./images/rdss.png]]
 
-* Outils pour se former
+* DONE Outils pour se former
+  CLOSED: [2023-05-26 ven. 09:21]
 ** /Vers une recherche reproductible/
 #+REVEAL_HTML: <div class="column" style="float:left; text-align:left; width: 40%">
 - Un livre par Desquilbet et al., librement disponible en ligne sur HAL : https://hal.science/hal-02144142
