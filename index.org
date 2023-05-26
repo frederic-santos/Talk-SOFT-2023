@@ -14,10 +14,9 @@
 * IN-PROGRESS Ouvrir (simplement)
 ** TODO Versionner avec Git, publier sur des forges
 
-** TODO Quelques aspects "juridiques"
-- Licences
-- Autorisation des tutelles ?
-- Forges institutionnelles (HumaNum, GitUB).
+** Quelques aspects "juridiques"
+- *Choix de la licence*. Le code mis à disposition publiquement devrait disposer d'une licence d'utilisation. Si vous souhaitez opter pour une licence libre, la licence [[http://www.cecill.info/][CeCILL]] est une adaptation en droit français des principes de la licence libre GPL. (La licence CeCILL a été créée par les principaux EPST français.)
+- *Choix de la forge*. La politique de sécurité des services d'information du CNRS ou d'UB est assez floue sur ce point, mais l'usage de forges Git privées (GitHub appartient à Microsoft) peut être vu comme problématique. On pourra préférer l'une des forges institutionnelles ([[https://gitlab.huma-num.fr/users/sign_in][Huma-Num]], [[https://gitub.u-bordeaux.fr/][GitUB]]) basées sur GitLab.
 
 * IN-PROGRESS Partager (avec de meilleures pratiques)
 ** TODO Au-delà du script : les notebooks (Jupyter, Quarto, Org)
