@@ -3,5 +3,7 @@
 #+AUTHOR: Frédéric Santos
 #+DATE: 22 juin 2023
 
+Ce dépôt contient la source (au format Org) du [[https://frederic-santos.github.io/Talk-SOFT-2023/][diaporama HTML]] présenté lors de la seconde [[https://soft.sciencesconf.org/][Journée SOFT]] ("Tous formés à la science ouverte") à Bordeaux, le 22 juin 2023.
+
 ** Licence
 Le contenu de ce dépôt est sous licence CC-BY-NC-SA 4.0.
