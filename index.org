@@ -84,9 +84,9 @@ Le fait de partager le code (et si possible, le manuscrit) d'un article scientif
 
 *** Un exemple de publication "binderisée"
 
-- *Référence* : Arranz-Otaegui, A., & Roe, J. (2023). Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia. /Vegetation History and Archaeobotany/. http://dx.doi.org/10.1007/s00334-023-00917-1
-- Dépôt GitHub : https://github.com/joeroe/SWAsiaNeolithicFounderCrops
-- [[https://mybinder.org/v2/gh/joeroe/SWAsiaNeolithicFounderCrops/main?urlpath=rstudio][Lien Binder]] vers le manuscrit reproductible.
+- *Référence* : Boettiger, C. (2018). From noise to knowledge: how randomness generates novel phenomena and reveals information /Ecology Letters/. https://doi.org/10.1111/ele.13085
+- Dépôt GitHub : https://github.com/cboettig/noise-phenomena
+- [[http://beta.mybinder.org/v2/gh/cboettig/noise-phenomena/master?urlpath=rstudio][Lien Binder]] vers le manuscrit reproductible.
 
 ** Des solutions encore plus avancées : Docker, Guix
 
