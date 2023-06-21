@@ -84,7 +84,7 @@ Le fait de partager le code (et si possible, le manuscrit) d'un article scientif
 
 *** Un exemple de publication "binderisée"
 
-- *Référence* : Boettiger, C. (2018). From noise to knowledge: how randomness generates novel phenomena and reveals information /Ecology Letters/. https://doi.org/10.1111/ele.13085
+- *Référence* : Boettiger, C. (2018). From noise to knowledge: how randomness generates novel phenomena and reveals information. /Ecology Letters/. https://doi.org/10.1111/ele.13085
 - Dépôt GitHub : https://github.com/cboettig/noise-phenomena
 - [[http://beta.mybinder.org/v2/gh/cboettig/noise-phenomena/master?urlpath=rstudio][Lien Binder]] vers le manuscrit reproductible.
 
